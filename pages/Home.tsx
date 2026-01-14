@@ -119,9 +119,13 @@ const Home: React.FC = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {SERVICES_LIST.map((service) => (
-              <div key={service.id} className="bg-white p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all hover:-translate-y-2 group">
-                <div className="w-16 h-16 bg-blue-50 text-blue-700 rounded-2xl flex items-center justify-center mb-6 transition-colors group-hover:bg-blue-700 group-hover:text-white">
-                  {service.icon}
+              <div key={service.id} className="bg-white p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all hover:-translate-y-2 group overflow-hidden">
+                <div className="h-48 -mx-8 -mt-8 mb-6 overflow-hidden">
+                  <img 
+                    src={service.image} 
+                    alt={service.title} 
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
                 </div>
                 <h4 className="text-xl font-bold text-slate-900 mb-3">{service.title}</h4>
                 <p className="text-slate-600 mb-6 line-clamp-3">

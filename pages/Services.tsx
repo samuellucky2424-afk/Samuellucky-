@@ -26,11 +26,11 @@ const Services: React.FC = () => {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {logistics.map((service) => (
-              <div key={service.id} className="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 hover:border-blue-200 transition-all flex items-start space-x-6">
-                <div className="hidden sm:flex w-14 h-14 bg-blue-100 text-blue-700 rounded-xl items-center justify-center shrink-0">
-                  {service.icon}
+              <div key={service.id} className="bg-white rounded-3xl shadow-sm border border-slate-100 hover:border-blue-200 transition-all flex flex-col md:flex-row overflow-hidden">
+                <div className="w-full md:w-1/3 h-64 md:h-auto">
+                  <img src={service.image} alt={service.title} className="w-full h-full object-cover" />
                 </div>
-                <div>
+                <div className="p-10 flex-1">
                   <h3 className="text-2xl font-bold text-slate-900 mb-4">{service.title}</h3>
                   <p className="text-slate-600 mb-6 leading-relaxed">{service.description}</p>
                   <ul className="space-y-3 mb-8">
@@ -58,11 +58,11 @@ const Services: React.FC = () => {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {rentals.map((service) => (
-              <div key={service.id} className="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 hover:border-blue-200 transition-all flex items-start space-x-6">
-                <div className="hidden sm:flex w-14 h-14 bg-blue-100 text-blue-700 rounded-xl items-center justify-center shrink-0">
-                  {service.icon}
+              <div key={service.id} className="bg-white rounded-3xl shadow-sm border border-slate-100 hover:border-blue-200 transition-all flex flex-col md:flex-row overflow-hidden">
+                <div className="w-full md:w-1/3 h-64 md:h-auto">
+                  <img src={service.image} alt={service.title} className="w-full h-full object-cover" />
                 </div>
-                <div>
+                <div className="p-10 flex-1">
                   <h3 className="text-2xl font-bold text-slate-900 mb-4">{service.title}</h3>
                   <p className="text-slate-600 mb-6 leading-relaxed">{service.description}</p>
                   <ul className="space-y-3 mb-8">
