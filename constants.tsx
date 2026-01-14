@@ -37,7 +37,7 @@ export const SERVICES_LIST = [
     title: 'Cold Chain Transport',
     description: 'Temperature-controlled logistics for perishable goods and pharmaceuticals requiring strict climate control.',
     category: 'logistics',
-    image: 'https://images.unsplash.com/photo-1580674271209-400c4e1bdfe4?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1513106580091-1d8030834c31?auto=format&fit=crop&q=80&w=800',
   },
   {
     id: 'last-mile',
@@ -58,20 +58,20 @@ export const SERVICES_LIST = [
     title: 'Heavy-Duty Truck Rental',
     description: 'Reliable flatbeds and trailers for large-scale industrial moving and massive cargo transportation.',
     category: 'rental',
-    image: 'https://images.unsplash.com/photo-1606411910246-86d491845184?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1591768793355-74d7c869c17a?auto=format&fit=crop&q=80&w=800',
   },
   {
     id: 'construction-rental',
     title: 'Construction Equipment Rental',
     description: 'High-performance excavators, mixers, and scaffolding to power your construction projects efficiently.',
     category: 'rental',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1541625602330-2277a4c4b282?auto=format&fit=crop&q=80&w=800',
   },
   {
     id: 'eq-rental',
     title: 'Industrial Tool Rental',
     description: 'Specialized industrial tools and power equipment rentals to support small and large scale maintenance.',
     category: 'rental',
-    image: 'https://images.unsplash.com/photo-1581094288338-2314dddb7ecb?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1572981779307-38b8cabb2407?auto=format&fit=crop&q=80&w=800',
   },
 ];
