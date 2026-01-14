@@ -65,7 +65,7 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1570675621540-846190bd0c3c?auto=format&fit=crop&q=80&w=800" 
+                src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&q=80&w=800" 
                 alt="Delivery vehicle" 
                 className="rounded-3xl shadow-2xl relative z-10"
               />
